@@ -122,6 +122,7 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel54 = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jLabel33 = new javax.swing.JLabel();
         Sinulog = new javax.swing.JPanel();
         jPanel23 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
@@ -1008,6 +1009,9 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel28.setText("View more");
         jLabel28.setOpaque(true);
         jLabel28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel28MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 jLabel28MouseEntered(evt);
             }
@@ -1304,7 +1308,7 @@ public class Dashboard extends javax.swing.JFrame {
                     .addComponent(jPanel49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(40, 40, 40)
                 .addComponent(jPanel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(111, Short.MAX_VALUE))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
 
         jScrollPane3.setViewportView(jPanel9);
@@ -1324,18 +1328,27 @@ public class Dashboard extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel33.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel33.setText("Luzon");
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1020, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(jLabel33)
+                .addContainerGap(869, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addComponent(jLabel33)
+                .addContainerGap(607, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("tab3", jPanel5);
+        jTabbedPane2.addTab("luzonViewMore", jPanel5);
 
         Sinulog.setBackground(new java.awt.Color(153, 153, 255));
 
@@ -1468,6 +1481,11 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel32.setBackground(Color.white);
     }//GEN-LAST:event_jLabel32MouseExited
 
+    private void jLabel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel28MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane2.setSelectedIndex(2);
+    }//GEN-LAST:event_jLabel28MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -1537,6 +1555,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
