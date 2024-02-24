@@ -1106,6 +1106,9 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel30.setText("View more");
         jLabel30.setOpaque(true);
         jLabel30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel30MouseClicked(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 jLabel30MouseEntered(evt);
             }
@@ -1363,7 +1366,7 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jTabbedPane2.addTab("tab4", Sinulog);
+        jTabbedPane2.addTab("visayasViewMore", Sinulog);
 
         jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
         jLabel24.setText("Sinulog");
@@ -1485,6 +1488,11 @@ public class Dashboard extends javax.swing.JFrame {
         // TODO add your handling code here:
         jTabbedPane2.setSelectedIndex(2);
     }//GEN-LAST:event_jLabel28MouseClicked
+
+    private void jLabel30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel30MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane2.setSelectedIndex(3);
+    }//GEN-LAST:event_jLabel30MouseClicked
 
     /**
      * @param args the command line arguments
