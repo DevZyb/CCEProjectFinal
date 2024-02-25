@@ -172,6 +172,15 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel53 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jPanel73 = new javax.swing.JPanel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jSeparator3 = new javax.swing.JSeparator();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1823,7 +1832,6 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel46.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel46.setText("History");
 
-        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/Kadayawan History.png"))); // NOI18N
         jLabel47.setText("jLabel47");
         jLabel47.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
@@ -1927,7 +1935,7 @@ public class Dashboard extends javax.swing.JFrame {
                     .addGroup(jPanel70Layout.createSequentialGroup()
                         .addComponent(jLabel46)
                         .addGap(20, 20, 20)
-                        .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 246, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -1962,6 +1970,83 @@ public class Dashboard extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("KadayawanFestival", kadayawanPane);
+
+        jLabel54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/Panagbengafestival.png"))); // NOI18N
+        jLabel54.setText("jLabel54");
+
+        jLabel55.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel55.setText("Panagbenga Festival");
+
+        jLabel56.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        jLabel56.setText("BAGUIO CITY");
+
+        jLabel58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/panagbengatext1.png"))); // NOI18N
+
+        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/panaghistory.png"))); // NOI18N
+        jLabel57.setText("jLabel57");
+        jLabel57.setPreferredSize(new java.awt.Dimension(500, 240));
+
+        jLabel59.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel59.setText("HISTORY");
+
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/panagbenghistory1.png"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel73Layout = new javax.swing.GroupLayout(jPanel73);
+        jPanel73.setLayout(jPanel73Layout);
+        jPanel73Layout.setHorizontalGroup(
+            jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel73Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel59)
+                            .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 900, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel73Layout.createSequentialGroup()
+                                .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(20, 20, 20)
+                                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel55)
+                                    .addComponent(jLabel56)
+                                    .addGroup(jPanel73Layout.createSequentialGroup()
+                                        .addGap(0, 0, 0)
+                                        .addComponent(jLabel58)))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel60)
+                        .addGap(174, 174, 174))))
+        );
+        jPanel73Layout.setVerticalGroup(
+            jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel73Layout.createSequentialGroup()
+                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addGap(95, 95, 95)
+                        .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addGap(116, 116, 116)
+                        .addComponent(jLabel55)
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel56)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel58)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
+                .addComponent(jLabel59)
+                .addGroup(jPanel73Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel73Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel60)))
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        jTabbedPane2.addTab("PanagbengaFestival", jPanel73);
 
         getContentPane().add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, -40, 1020, 760));
 
@@ -2189,7 +2274,14 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
@@ -2263,6 +2355,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel70;
     private javax.swing.JPanel jPanel71;
     private javax.swing.JPanel jPanel72;
+    private javax.swing.JPanel jPanel73;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
@@ -2271,6 +2364,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JPanel kadayawanPane;
     private javax.swing.JPanel luzonView;
