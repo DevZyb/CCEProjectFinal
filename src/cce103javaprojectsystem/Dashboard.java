@@ -190,6 +190,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
+        jLabel62 = new javax.swing.JLabel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -2074,28 +2075,35 @@ public class Dashboard extends javax.swing.JFrame {
 
         jLabel66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/morionestext.png"))); // NOI18N
 
+        jLabel62.setText("jLabel62");
+
         javax.swing.GroupLayout jPanel77Layout = new javax.swing.GroupLayout(jPanel77);
         jPanel77.setLayout(jPanel77Layout);
         jPanel77Layout.setHorizontalGroup(
             jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel77Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jSeparator4)
+                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel77Layout.createSequentialGroup()
-                        .addComponent(jLabel61)
-                        .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jSeparator4)
                             .addGroup(jPanel77Layout.createSequentialGroup()
-                                .addGap(20, 20, 20)
-                                .addComponent(jLabel63))
-                            .addGroup(jPanel77Layout.createSequentialGroup()
-                                .addGap(20, 20, 20)
-                                .addComponent(jLabel65)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel64))
-                            .addGroup(jPanel77Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel66)))))
+                                .addComponent(jLabel61)
+                                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel77Layout.createSequentialGroup()
+                                        .addGap(20, 20, 20)
+                                        .addComponent(jLabel63))
+                                    .addGroup(jPanel77Layout.createSequentialGroup()
+                                        .addGap(20, 20, 20)
+                                        .addComponent(jLabel65)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel64))
+                                    .addGroup(jPanel77Layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jLabel66))))))
+                    .addGroup(jPanel77Layout.createSequentialGroup()
+                        .addGap(74, 74, 74)
+                        .addComponent(jLabel62)))
                 .addContainerGap(892, Short.MAX_VALUE))
         );
         jPanel77Layout.setVerticalGroup(
@@ -2114,7 +2122,9 @@ public class Dashboard extends javax.swing.JFrame {
                         .addComponent(jLabel66)))
                 .addGap(18, 18, 18)
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(585, Short.MAX_VALUE))
+                .addGap(28, 28, 28)
+                .addComponent(jLabel62)
+                .addContainerGap(523, Short.MAX_VALUE))
         );
 
         jScrollPane6.setViewportView(jPanel77);
@@ -2373,6 +2383,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
