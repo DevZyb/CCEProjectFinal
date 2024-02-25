@@ -61,8 +61,8 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         MorionesDiscover = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
-        jLabel67 = new javax.swing.JLabel();
+        PintadosFestival = new javax.swing.JPanel();
+        Pintados = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
@@ -224,6 +224,9 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel66 = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
         jLabel62 = new javax.swing.JLabel();
+        PintadosPage = new javax.swing.JPanel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jPanel74 = new javax.swing.JPanel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -599,19 +602,24 @@ public class Dashboard extends javax.swing.JFrame {
             .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
+        PintadosFestival.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/PintadosFinalCover.png"))); // NOI18N
+        Pintados.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/PintadosFinalCover.png"))); // NOI18N
+        Pintados.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                PintadosMouseClicked(evt);
+            }
+        });
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        javax.swing.GroupLayout PintadosFestivalLayout = new javax.swing.GroupLayout(PintadosFestival);
+        PintadosFestival.setLayout(PintadosFestivalLayout);
+        PintadosFestivalLayout.setHorizontalGroup(
+            PintadosFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(Pintados, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel67, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        PintadosFestivalLayout.setVerticalGroup(
+            PintadosFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(Pintados, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
@@ -1152,7 +1160,7 @@ public class Dashboard extends javax.swing.JFrame {
                                     .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(jPanel38, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(PintadosFestival, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(jPanel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                                 .addGroup(jPanel13Layout.createSequentialGroup()
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1164,7 +1172,7 @@ public class Dashboard extends javax.swing.JFrame {
                                 .addComponent(jSeparator5, javax.swing.GroupLayout.PREFERRED_SIZE, 915, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 915, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGap(2, 2, 2))))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addContainerGap(58, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1179,7 +1187,7 @@ public class Dashboard extends javax.swing.JFrame {
                 .addComponent(jLabel10)
                 .addGap(10, 10, 10)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PintadosFestival, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(MorionesDiscover, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(moriones, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(KadayawanDiscover, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
@@ -1237,9 +1245,7 @@ public class Dashboard extends javax.swing.JFrame {
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 718, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 725, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("Home", jPanel10);
@@ -2306,6 +2312,10 @@ public class Dashboard extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("PanagbengaFestival", PanagbengaFestival);
 
+        jScrollPane6.setBorder(null);
+        jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
         jPanel77.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/moriones.png"))); // NOI18N
@@ -2384,6 +2394,38 @@ public class Dashboard extends javax.swing.JFrame {
         );
 
         jTabbedPane2.addTab("MorionesFestival", MorionesFestival);
+
+        jScrollPane5.setBorder(null);
+        jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
+        javax.swing.GroupLayout jPanel74Layout = new javax.swing.GroupLayout(jPanel74);
+        jPanel74.setLayout(jPanel74Layout);
+        jPanel74Layout.setHorizontalGroup(
+            jPanel74Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1018, Short.MAX_VALUE)
+        );
+        jPanel74Layout.setVerticalGroup(
+            jPanel74Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1165, Short.MAX_VALUE)
+        );
+
+        jScrollPane5.setViewportView(jPanel74);
+
+        javax.swing.GroupLayout PintadosPageLayout = new javax.swing.GroupLayout(PintadosPage);
+        PintadosPage.setLayout(PintadosPageLayout);
+        PintadosPageLayout.setHorizontalGroup(
+            PintadosPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
+        );
+        PintadosPageLayout.setVerticalGroup(
+            PintadosPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PintadosPageLayout.createSequentialGroup()
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 785, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        jTabbedPane2.addTab("PintadosFestival", PintadosPage);
 
         getContentPane().add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, -40, 1020, 760));
 
@@ -2521,6 +2563,11 @@ public class Dashboard extends javax.swing.JFrame {
         jTabbedPane2.setSelectedIndex(10);
     }//GEN-LAST:event_jLabel16MouseClicked
 
+    private void PintadosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PintadosMouseClicked
+        // TODO add your handling code here:
+        jTabbedPane2.setSelectedIndex(11);
+    }//GEN-LAST:event_PintadosMouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -2561,6 +2608,9 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel MorionesDiscover;
     private javax.swing.JPanel MorionesFestival;
     private javax.swing.JPanel PanagbengaFestival;
+    private javax.swing.JLabel Pintados;
+    private javax.swing.JPanel PintadosFestival;
+    private javax.swing.JPanel PintadosPage;
     private javax.swing.JPanel Sinulog;
     private javax.swing.JPanel SinulogDiscover;
     private javax.swing.JPanel SinulogPage;
@@ -2630,7 +2680,6 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
-    private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
@@ -2734,13 +2783,14 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel71;
     private javax.swing.JPanel jPanel72;
     private javax.swing.JPanel jPanel73;
+    private javax.swing.JPanel jPanel74;
     private javax.swing.JPanel jPanel77;
-    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
