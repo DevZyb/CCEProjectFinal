@@ -250,6 +250,24 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel113 = new javax.swing.JLabel();
         jLabel114 = new javax.swing.JLabel();
         jLabel115 = new javax.swing.JLabel();
+        AtiAtihanFestival = new javax.swing.JPanel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        jSeparator11 = new javax.swing.JSeparator();
+        jLabel121 = new javax.swing.JLabel();
+        jLabel122 = new javax.swing.JLabel();
+        jLabel123 = new javax.swing.JLabel();
+        jSeparator12 = new javax.swing.JSeparator();
+        jLabel124 = new javax.swing.JLabel();
+        jLabel125 = new javax.swing.JLabel();
+        jLabel126 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
+        jLabel128 = new javax.swing.JLabel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -723,6 +741,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/PanagbengaFinalCover.png"))); // NOI18N
+        jLabel70.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel70MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -738,6 +761,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/Ati-atihan Final Cover.png"))); // NOI18N
+        jLabel80.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel80MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -2603,6 +2631,133 @@ public class Dashboard extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("PintadosFestival", PintadosPage);
 
+        jLabel116.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/ati.png"))); // NOI18N
+
+        jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel117.setText("Ati-Atihan Festival");
+
+        jLabel119.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel119.setText("Kalibo, Aklan");
+
+        jLabel120.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atitext.png"))); // NOI18N
+
+        jLabel121.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel121.setText("HISTORY");
+
+        jLabel122.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atihistory.png"))); // NOI18N
+
+        jLabel123.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atihistorypic1.png"))); // NOI18N
+
+        jLabel124.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel124.setText("ETIQUETTES");
+
+        jLabel125.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atietiq.png"))); // NOI18N
+        jLabel125.setText("jLabel125");
+
+        jLabel126.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atietiq1.png"))); // NOI18N
+        jLabel126.setText("jLabel126");
+
+        jLabel127.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atietiqpic.png"))); // NOI18N
+
+        jLabel128.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/atietiqpic1.png"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jSeparator11)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(jLabel116)
+                                .addGap(50, 50, 50)
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel117)
+                                    .addComponent(jLabel118)
+                                    .addComponent(jLabel119)
+                                    .addComponent(jLabel120)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel122)
+                                    .addComponent(jLabel121))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel123))
+                            .addComponent(jSeparator12)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(jLabel127))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(jLabel128)))
+                        .addGap(52, 52, 52)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel125)
+                            .addComponent(jLabel124)
+                            .addComponent(jLabel126))))
+                .addContainerGap(519, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(jLabel116))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(99, 99, 99)
+                        .addComponent(jLabel117)
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel118)
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel119)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel120)))
+                .addGap(5, 5, 5)
+                .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(29, 29, 29)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel121)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel122))
+                    .addComponent(jLabel123))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(42, 42, 42)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel124)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel125))
+                    .addComponent(jLabel127))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel126)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel128)))
+                .addContainerGap(169, Short.MAX_VALUE))
+        );
+
+        jScrollPane7.setViewportView(jPanel8);
+
+        javax.swing.GroupLayout AtiAtihanFestivalLayout = new javax.swing.GroupLayout(AtiAtihanFestival);
+        AtiAtihanFestival.setLayout(AtiAtihanFestivalLayout);
+        AtiAtihanFestivalLayout.setHorizontalGroup(
+            AtiAtihanFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
+        );
+        AtiAtihanFestivalLayout.setVerticalGroup(
+            AtiAtihanFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 725, Short.MAX_VALUE)
+        );
+
+        jTabbedPane2.addTab("AtiAtihanFestival", AtiAtihanFestival);
+
         getContentPane().add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, -40, 1020, 760));
 
         middleBorder.setBackground(new java.awt.Color(238, 237, 235));
@@ -2744,6 +2899,14 @@ public class Dashboard extends javax.swing.JFrame {
         jTabbedPane2.setSelectedIndex(11);
     }//GEN-LAST:event_PintadosMouseClicked
 
+    private void jLabel70MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel70MouseClicked
+        jTabbedPane2.setSelectedIndex(9);
+    }//GEN-LAST:event_jLabel70MouseClicked
+
+    private void jLabel80MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel80MouseClicked
+        jTabbedPane2.setSelectedIndex(12);
+    }//GEN-LAST:event_jLabel80MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -2780,6 +2943,7 @@ public class Dashboard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel AtiAtihanFestival;
     private javax.swing.JPanel KadayawanDiscover;
     private javax.swing.JPanel MorionesDiscover;
     private javax.swing.JPanel MorionesFestival;
@@ -2812,7 +2976,20 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel113;
     private javax.swing.JLabel jLabel114;
     private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
+    private javax.swing.JLabel jLabel125;
+    private javax.swing.JLabel jLabel126;
+    private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
@@ -2980,6 +3157,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel73;
     private javax.swing.JPanel jPanel74;
     private javax.swing.JPanel jPanel77;
+    private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
@@ -2987,8 +3165,11 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator10;
+    private javax.swing.JSeparator jSeparator11;
+    private javax.swing.JSeparator jSeparator12;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
