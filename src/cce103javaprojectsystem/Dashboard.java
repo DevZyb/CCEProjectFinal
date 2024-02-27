@@ -414,6 +414,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel229 = new javax.swing.JLabel();
         jLabel230 = new javax.swing.JLabel();
         jLabel231 = new javax.swing.JLabel();
+        TnalakFestival = new javax.swing.JPanel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jPanel97 = new javax.swing.JPanel();
+        jLabel232 = new javax.swing.JLabel();
+        jLabel233 = new javax.swing.JLabel();
+        jLabel234 = new javax.swing.JLabel();
+        jLabel235 = new javax.swing.JLabel();
+        jSeparator25 = new javax.swing.JSeparator();
+        jLabel236 = new javax.swing.JLabel();
+        jLabel237 = new javax.swing.JLabel();
+        jLabel238 = new javax.swing.JLabel();
+        jLabel239 = new javax.swing.JLabel();
+        jLabel240 = new javax.swing.JLabel();
+        jLabel241 = new javax.swing.JLabel();
+        jLabel242 = new javax.swing.JLabel();
+        jLabel243 = new javax.swing.JLabel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1032,6 +1048,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel86.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/T'nalak Final Cover.png"))); // NOI18N
+        jLabel86.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel86MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
         jPanel27.setLayout(jPanel27Layout);
@@ -1465,11 +1486,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1300, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 2000, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 725, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("Home", jPanel10);
@@ -4026,6 +4047,118 @@ public class Dashboard extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("LanzonesFestival", LanzonesFestival);
 
+        jLabel232.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak1.png"))); // NOI18N
+
+        jLabel233.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel233.setText("T'nalak Festival");
+
+        jLabel234.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel234.setText("Koronadal City, South Cotabato");
+
+        jLabel235.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak.png"))); // NOI18N
+
+        jLabel236.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel236.setText("HISTORY");
+
+        jLabel237.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak2.png"))); // NOI18N
+
+        jLabel238.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak3.png"))); // NOI18N
+
+        jLabel239.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel239.setText("ETIQUETTES");
+
+        jLabel240.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak6.png"))); // NOI18N
+
+        jLabel241.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak7.png"))); // NOI18N
+
+        jLabel242.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak4.png"))); // NOI18N
+
+        jLabel243.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/tnalak5.png"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel97Layout = new javax.swing.GroupLayout(jPanel97);
+        jPanel97.setLayout(jPanel97Layout);
+        jPanel97Layout.setHorizontalGroup(
+            jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel97Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jSeparator25)
+                        .addGroup(jPanel97Layout.createSequentialGroup()
+                            .addComponent(jLabel232)
+                            .addGap(72, 72, 72)
+                            .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel233)
+                                .addComponent(jLabel234)
+                                .addComponent(jLabel235))))
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel237)
+                            .addComponent(jLabel236))
+                        .addGap(50, 50, 50)
+                        .addComponent(jLabel238))
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel240)
+                            .addComponent(jLabel241))
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel243)
+                            .addComponent(jLabel239)
+                            .addComponent(jLabel242))))
+                .addContainerGap(769, Short.MAX_VALUE))
+        );
+        jPanel97Layout.setVerticalGroup(
+            jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel97Layout.createSequentialGroup()
+                .addGap(90, 90, 90)
+                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addComponent(jLabel233)
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel234)
+                        .addGap(28, 28, 28)
+                        .addComponent(jLabel235))
+                    .addComponent(jLabel232))
+                .addGap(12, 12, 12)
+                .addComponent(jSeparator25, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addComponent(jLabel236)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel237))
+                    .addComponent(jLabel238))
+                .addGap(62, 62, 62)
+                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addComponent(jLabel239)
+                        .addGap(35, 35, 35)
+                        .addComponent(jLabel242))
+                    .addComponent(jLabel240))
+                .addGroup(jPanel97Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel241)
+                    .addGroup(jPanel97Layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel243)))
+                .addContainerGap(100, Short.MAX_VALUE))
+        );
+
+        jScrollPane13.setViewportView(jPanel97);
+
+        javax.swing.GroupLayout TnalakFestivalLayout = new javax.swing.GroupLayout(TnalakFestival);
+        TnalakFestival.setLayout(TnalakFestivalLayout);
+        TnalakFestivalLayout.setHorizontalGroup(
+            TnalakFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
+        );
+        TnalakFestivalLayout.setVerticalGroup(
+            TnalakFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 725, Short.MAX_VALUE)
+        );
+
+        jTabbedPane2.addTab("T'nalakFestival", TnalakFestival);
+
         getContentPane().add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, -40, 1020, 760));
 
         middleBorder.setBackground(new java.awt.Color(238, 237, 235));
@@ -4205,6 +4338,10 @@ public class Dashboard extends javax.swing.JFrame {
         jTabbedPane2.setSelectedIndex(17);
     }//GEN-LAST:event_jLabel85MouseClicked
 
+    private void jLabel86MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel86MouseClicked
+        jTabbedPane2.setSelectedIndex(18);
+    }//GEN-LAST:event_jLabel86MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -4257,6 +4394,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel SinulogDiscover;
     private javax.swing.JPanel SinulogPage;
     private javax.swing.JPanel Star;
+    private javax.swing.JPanel TnalakFestival;
     private javax.swing.JPanel discoverPanel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
@@ -4408,7 +4546,19 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel230;
     private javax.swing.JLabel jLabel231;
+    private javax.swing.JLabel jLabel232;
+    private javax.swing.JLabel jLabel233;
+    private javax.swing.JLabel jLabel234;
+    private javax.swing.JLabel jLabel235;
+    private javax.swing.JLabel jLabel236;
+    private javax.swing.JLabel jLabel237;
+    private javax.swing.JLabel jLabel238;
+    private javax.swing.JLabel jLabel239;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel240;
+    private javax.swing.JLabel jLabel241;
+    private javax.swing.JLabel jLabel242;
+    private javax.swing.JLabel jLabel243;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
@@ -4586,10 +4736,12 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel94;
     private javax.swing.JPanel jPanel95;
     private javax.swing.JPanel jPanel96;
+    private javax.swing.JPanel jPanel97;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -4615,6 +4767,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator22;
     private javax.swing.JSeparator jSeparator23;
     private javax.swing.JSeparator jSeparator24;
+    private javax.swing.JSeparator jSeparator25;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
