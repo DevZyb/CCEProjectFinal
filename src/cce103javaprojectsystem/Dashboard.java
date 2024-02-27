@@ -380,6 +380,23 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel205 = new javax.swing.JLabel();
         jLabel206 = new javax.swing.JLabel();
         jLabel207 = new javax.swing.JLabel();
+        BuyoganFestival = new javax.swing.JPanel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jPanel95 = new javax.swing.JPanel();
+        jLabel208 = new javax.swing.JLabel();
+        jLabel209 = new javax.swing.JLabel();
+        jLabel210 = new javax.swing.JLabel();
+        jLabel211 = new javax.swing.JLabel();
+        jSeparator21 = new javax.swing.JSeparator();
+        jLabel212 = new javax.swing.JLabel();
+        jLabel213 = new javax.swing.JLabel();
+        jLabel214 = new javax.swing.JLabel();
+        jSeparator22 = new javax.swing.JSeparator();
+        jLabel215 = new javax.swing.JLabel();
+        jLabel216 = new javax.swing.JLabel();
+        jLabel217 = new javax.swing.JLabel();
+        jLabel218 = new javax.swing.JLabel();
+        jLabel219 = new javax.swing.JLabel();
         middleBorder = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -958,6 +975,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel84.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/Buyogan Final Cover.png"))); // NOI18N
+        jLabel84.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel84MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
         jPanel25.setLayout(jPanel25Layout);
@@ -3003,7 +3025,6 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/morionesetiqtext.png"))); // NOI18N
 
         jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/morionesetiqtext1.png"))); // NOI18N
-        jLabel100.setText("jLabel100");
 
         jLabel101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/morionesetiqpic1.png"))); // NOI18N
 
@@ -3051,7 +3072,7 @@ public class Dashboard extends javax.swing.JFrame {
                         .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel99)
                             .addComponent(jLabel103))))
-                .addContainerGap(196, Short.MAX_VALUE))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
         jPanel77Layout.setVerticalGroup(
             jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3743,6 +3764,125 @@ public class Dashboard extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("DinagyangFestival", DinagyangFestival);
 
+        jLabel208.setIcon(new javax.swing.ImageIcon("C:\\Users\\carlp\\Downloads\\buyogan.png")); // NOI18N
+
+        jLabel209.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel209.setText("Buyogan Festival");
+
+        jLabel210.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel210.setText("Leyte, Eastern Visayas");
+
+        jLabel211.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan1.png"))); // NOI18N
+
+        jLabel212.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel212.setText("HISTORY");
+
+        jLabel213.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan2.png"))); // NOI18N
+
+        jLabel214.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan3.png"))); // NOI18N
+
+        jLabel215.setFont(jLabel215.getFont().deriveFont(jLabel215.getFont().getStyle() | java.awt.Font.BOLD, 36));
+        jLabel215.setText("ETIQUETTES");
+
+        jLabel216.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan4.png"))); // NOI18N
+
+        jLabel217.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan5.png"))); // NOI18N
+
+        jLabel218.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan6.png"))); // NOI18N
+
+        jLabel219.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/buyogan7.png"))); // NOI18N
+
+        javax.swing.GroupLayout jPanel95Layout = new javax.swing.GroupLayout(jPanel95);
+        jPanel95.setLayout(jPanel95Layout);
+        jPanel95Layout.setHorizontalGroup(
+            jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel95Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jSeparator21)
+                        .addGroup(jPanel95Layout.createSequentialGroup()
+                            .addComponent(jLabel208)
+                            .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel95Layout.createSequentialGroup()
+                                    .addGap(20, 20, 20)
+                                    .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel209)
+                                        .addComponent(jLabel210)))
+                                .addGroup(jPanel95Layout.createSequentialGroup()
+                                    .addGap(18, 18, 18)
+                                    .addComponent(jLabel211))))
+                        .addGroup(jPanel95Layout.createSequentialGroup()
+                            .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel213)
+                                .addComponent(jLabel212))
+                            .addGap(18, 18, 18)
+                            .addComponent(jLabel214))
+                        .addComponent(jSeparator22))
+                    .addGroup(jPanel95Layout.createSequentialGroup()
+                        .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel216)
+                            .addComponent(jLabel217))
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel219)
+                            .addComponent(jLabel215)
+                            .addComponent(jLabel218))))
+                .addContainerGap(819, Short.MAX_VALUE))
+        );
+        jPanel95Layout.setVerticalGroup(
+            jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel95Layout.createSequentialGroup()
+                .addGap(90, 90, 90)
+                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel95Layout.createSequentialGroup()
+                        .addComponent(jLabel209)
+                        .addGap(0, 0, 0)
+                        .addComponent(jLabel210)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel211))
+                    .addComponent(jLabel208))
+                .addGap(18, 18, 18)
+                .addComponent(jSeparator21, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel95Layout.createSequentialGroup()
+                        .addComponent(jLabel212)
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel213))
+                    .addComponent(jLabel214))
+                .addGap(18, 18, 18)
+                .addComponent(jSeparator22, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel95Layout.createSequentialGroup()
+                        .addComponent(jLabel215)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel218))
+                    .addComponent(jLabel216))
+                .addGroup(jPanel95Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel217)
+                    .addGroup(jPanel95Layout.createSequentialGroup()
+                        .addGap(26, 26, 26)
+                        .addComponent(jLabel219)))
+                .addContainerGap(100, Short.MAX_VALUE))
+        );
+
+        jScrollPane11.setViewportView(jPanel95);
+
+        javax.swing.GroupLayout BuyoganFestivalLayout = new javax.swing.GroupLayout(BuyoganFestival);
+        BuyoganFestival.setLayout(BuyoganFestivalLayout);
+        BuyoganFestivalLayout.setHorizontalGroup(
+            BuyoganFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
+        );
+        BuyoganFestivalLayout.setVerticalGroup(
+            BuyoganFestivalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 725, Short.MAX_VALUE)
+        );
+
+        jTabbedPane2.addTab("Buyogan Festival", BuyoganFestival);
+
         getContentPane().add(jTabbedPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, -40, 1020, 760));
 
         middleBorder.setBackground(new java.awt.Color(238, 237, 235));
@@ -3914,6 +4054,10 @@ public class Dashboard extends javax.swing.JFrame {
         jTabbedPane2.setSelectedIndex(15);
     }//GEN-LAST:event_jLabel83MouseClicked
 
+    private void jLabel84MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel84MouseClicked
+        jTabbedPane2.setSelectedIndex(16);
+    }//GEN-LAST:event_jLabel84MouseClicked
+
     /**
      * @param args the command line arguments
      */
@@ -3951,6 +4095,7 @@ public class Dashboard extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AtiAtihanFestival;
+    private javax.swing.JPanel BuyoganFestival;
     private javax.swing.JPanel DinagyangFestival;
     private javax.swing.JPanel KadayawanDiscover;
     private javax.swing.JPanel MasskaraFestival;
@@ -4088,7 +4233,19 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel205;
     private javax.swing.JLabel jLabel206;
     private javax.swing.JLabel jLabel207;
+    private javax.swing.JLabel jLabel208;
+    private javax.swing.JLabel jLabel209;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel210;
+    private javax.swing.JLabel jLabel211;
+    private javax.swing.JLabel jLabel212;
+    private javax.swing.JLabel jLabel213;
+    private javax.swing.JLabel jLabel214;
+    private javax.swing.JLabel jLabel215;
+    private javax.swing.JLabel jLabel216;
+    private javax.swing.JLabel jLabel217;
+    private javax.swing.JLabel jLabel218;
+    private javax.swing.JLabel jLabel219;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
@@ -4267,8 +4424,10 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel91;
     private javax.swing.JPanel jPanel92;
     private javax.swing.JPanel jPanel94;
+    private javax.swing.JPanel jPanel95;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -4290,6 +4449,8 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator19;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator20;
+    private javax.swing.JSeparator jSeparator21;
+    private javax.swing.JSeparator jSeparator22;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
