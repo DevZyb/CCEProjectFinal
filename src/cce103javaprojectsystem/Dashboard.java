@@ -874,6 +874,11 @@ public class Dashboard extends javax.swing.JFrame {
         MorionesDiscover.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/PahiyasFinalCover.png"))); // NOI18N
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout MorionesDiscoverLayout = new javax.swing.GroupLayout(MorionesDiscover);
         MorionesDiscover.setLayout(MorionesDiscoverLayout);
@@ -3793,53 +3798,55 @@ public class Dashboard extends javax.swing.JFrame {
             .addGroup(jPanel94Layout.createSequentialGroup()
                 .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addComponent(jLabel245))
-                    .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
-                        .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jSeparator19, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel94Layout.createSequentialGroup()
-                                .addComponent(jLabel196)
-                                .addGap(20, 20, 20)
-                                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel198)
-                                    .addComponent(jLabel197)
-                                    .addComponent(jLabel244)))
-                            .addGroup(jPanel94Layout.createSequentialGroup()
-                                .addComponent(jLabel200)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel246)))
-                        .addGap(0, 0, 0)
-                        .addComponent(jLabel199)
-                        .addGap(0, 0, 0)
-                        .addComponent(jLabel201)))
-                .addGap(0, 0, 0)
-                .addComponent(jLabel202)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel94Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel94Layout.createSequentialGroup()
-                                .addComponent(jLabel204)
-                                .addGap(20, 20, 20)
-                                .addComponent(jLabel206))
-                            .addComponent(jLabel247)
-                            .addComponent(jLabel248))
-                        .addGap(20, 20, 20)
                         .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel94Layout.createSequentialGroup()
                                 .addGap(50, 50, 50)
-                                .addComponent(jLabel203))
-                            .addComponent(jLabel249)
-                            .addComponent(jLabel250)))
-                    .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addComponent(jLabel205)
+                                .addComponent(jLabel245))
+                            .addGroup(jPanel94Layout.createSequentialGroup()
+                                .addGap(52, 52, 52)
+                                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jSeparator19, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel94Layout.createSequentialGroup()
+                                        .addComponent(jLabel196)
+                                        .addGap(20, 20, 20)
+                                        .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel198)
+                                            .addComponent(jLabel197)
+                                            .addComponent(jLabel244)))
+                                    .addGroup(jPanel94Layout.createSequentialGroup()
+                                        .addComponent(jLabel200)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jLabel246)))
+                                .addGap(0, 0, 0)
+                                .addComponent(jLabel199)
+                                .addGap(0, 0, 0)
+                                .addComponent(jLabel201)))
                         .addGap(0, 0, 0)
-                        .addComponent(jLabel207))
-                    .addComponent(jSeparator32, javax.swing.GroupLayout.PREFERRED_SIZE, 938, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel202))
+                    .addGroup(jPanel94Layout.createSequentialGroup()
+                        .addGap(50, 50, 50)
+                        .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel94Layout.createSequentialGroup()
+                                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel94Layout.createSequentialGroup()
+                                        .addComponent(jLabel204)
+                                        .addGap(20, 20, 20)
+                                        .addComponent(jLabel206))
+                                    .addComponent(jLabel247)
+                                    .addComponent(jLabel248))
+                                .addGap(20, 20, 20)
+                                .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel94Layout.createSequentialGroup()
+                                        .addGap(50, 50, 50)
+                                        .addComponent(jLabel203))
+                                    .addComponent(jLabel249)
+                                    .addComponent(jLabel250)))
+                            .addGroup(jPanel94Layout.createSequentialGroup()
+                                .addComponent(jLabel205)
+                                .addGap(0, 0, 0)
+                                .addComponent(jLabel207))
+                            .addComponent(jSeparator32, javax.swing.GroupLayout.PREFERRED_SIZE, 938, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel94Layout.setVerticalGroup(
             jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3891,16 +3898,14 @@ public class Dashboard extends javax.swing.JFrame {
                         .addComponent(jLabel247)))
                 .addGap(28, 28, 28)
                 .addGroup(jPanel94Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel94Layout.createSequentialGroup()
-                        .addComponent(jLabel250)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel250)
                     .addGroup(jPanel94Layout.createSequentialGroup()
                         .addComponent(jLabel206)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel248)
                         .addGap(89, 89, 89)
-                        .addComponent(jLabel207)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addComponent(jLabel207)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jScrollPane10.setViewportView(jPanel94);
@@ -4703,31 +4708,29 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel100Layout.setHorizontalGroup(
             jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel100Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
                 .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jSeparator37)
+                        .addGroup(jPanel100Layout.createSequentialGroup()
+                            .addComponent(jLabel290)
+                            .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel100Layout.createSequentialGroup()
+                                    .addGap(20, 20, 20)
+                                    .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel24)
+                                        .addComponent(jLabel38)))
+                                .addGroup(jPanel100Layout.createSequentialGroup()
+                                    .addGap(18, 18, 18)
+                                    .addComponent(jLabel40))))
+                        .addGroup(jPanel100Layout.createSequentialGroup()
+                            .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel291)
+                                .addComponent(jLabel41))
+                            .addGap(18, 18, 18)
+                            .addComponent(jLabel292))
+                        .addComponent(jSeparator38))
                     .addGroup(jPanel100Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jSeparator37)
-                            .addGroup(jPanel100Layout.createSequentialGroup()
-                                .addComponent(jLabel290)
-                                .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel100Layout.createSequentialGroup()
-                                        .addGap(20, 20, 20)
-                                        .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jLabel24)
-                                            .addComponent(jLabel38)))
-                                    .addGroup(jPanel100Layout.createSequentialGroup()
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jLabel40))))
-                            .addGroup(jPanel100Layout.createSequentialGroup()
-                                .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel291)
-                                    .addComponent(jLabel41))
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel292))
-                            .addComponent(jSeparator38)))
-                    .addGroup(jPanel100Layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
                         .addGroup(jPanel100Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel297)
                             .addComponent(jLabel298))
@@ -4879,7 +4882,7 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
-        jTabbedPane2.setSelectedIndex(8);
+        jTabbedPane2.setSelectedIndex(7);
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
@@ -4887,20 +4890,20 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel7MouseClicked
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
-        jTabbedPane2.setSelectedIndex(10);
+        jTabbedPane2.setSelectedIndex(9);
     }//GEN-LAST:event_jLabel16MouseClicked
 
     private void PintadosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PintadosMouseClicked
-        // TODO add your handling code here:
-        jTabbedPane2.setSelectedIndex(11);
+
+        jTabbedPane2.setSelectedIndex(10);
     }//GEN-LAST:event_PintadosMouseClicked
 
     private void jLabel70MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel70MouseClicked
-        jTabbedPane2.setSelectedIndex(9);
+        jTabbedPane2.setSelectedIndex(8);
     }//GEN-LAST:event_jLabel70MouseClicked
 
     private void jLabel80MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel80MouseClicked
-        jTabbedPane2.setSelectedIndex(12);
+        jTabbedPane2.setSelectedIndex(11);
     }//GEN-LAST:event_jLabel80MouseClicked
 
     private void jLabel32MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseExited
@@ -4955,7 +4958,7 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jLabel74MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel74MouseClicked
-        jTabbedPane2.setSelectedIndex(13);
+        jTabbedPane2.setSelectedIndex(12);
     }//GEN-LAST:event_jLabel74MouseClicked
 
     private void jLabel82KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jLabel82KeyPressed
@@ -4963,32 +4966,36 @@ public class Dashboard extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel82KeyPressed
 
     private void jLabel82MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel82MouseClicked
-        jTabbedPane2.setSelectedIndex(14);
+        jTabbedPane2.setSelectedIndex(13);
     }//GEN-LAST:event_jLabel82MouseClicked
 
     private void jLabel83MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel83MouseClicked
-        jTabbedPane2.setSelectedIndex(15);
+        jTabbedPane2.setSelectedIndex(14);
     }//GEN-LAST:event_jLabel83MouseClicked
 
     private void jLabel84MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel84MouseClicked
-        jTabbedPane2.setSelectedIndex(16);
+        jTabbedPane2.setSelectedIndex(15);
     }//GEN-LAST:event_jLabel84MouseClicked
 
     private void jLabel85MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel85MouseClicked
-        jTabbedPane2.setSelectedIndex(17);
+        jTabbedPane2.setSelectedIndex(16);
     }//GEN-LAST:event_jLabel85MouseClicked
 
     private void jLabel86MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel86MouseClicked
-        jTabbedPane2.setSelectedIndex(18);
+        jTabbedPane2.setSelectedIndex(17);
     }//GEN-LAST:event_jLabel86MouseClicked
 
     private void jLabel87MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel87MouseClicked
-        jTabbedPane2.setSelectedIndex(19);
+        jTabbedPane2.setSelectedIndex(18);
     }//GEN-LAST:event_jLabel87MouseClicked
 
     private void jLabel88MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel88MouseClicked
-        jTabbedPane2.setSelectedIndex(20);
+        jTabbedPane2.setSelectedIndex(19);
     }//GEN-LAST:event_jLabel88MouseClicked
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+      jTabbedPane2.setSelectedIndex(20);
+    }//GEN-LAST:event_jLabel17MouseClicked
 
     /**
      * @param args the command line arguments
