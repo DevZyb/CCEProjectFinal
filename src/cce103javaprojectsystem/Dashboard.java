@@ -2733,7 +2733,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cce103javaprojectsystem/Images/Etiquete IMG.png"))); // NOI18N
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton1.setText("VISIT DAVAO CITY");
+        jButton1.setText("VISIT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -4677,14 +4677,20 @@ public class Dashboard extends javax.swing.JFrame {
                         .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel275)
                             .addComponent(jLabel277))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel273)
-                                .addComponent(jLabel276))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createSequentialGroup()
-                                .addComponent(jLabel274)
-                                .addGap(50, 50, 50))))))
+                            .addGroup(jPanel98Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addGroup(jPanel98Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createSequentialGroup()
+                                        .addComponent(jLabel273)
+                                        .addGap(296, 296, 296))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createSequentialGroup()
+                                        .addComponent(jLabel274)
+                                        .addGap(50, 50, 50))))
+                            .addGroup(jPanel98Layout.createSequentialGroup()
+                                .addComponent(jLabel276)
+                                .addGap(0, 0, Short.MAX_VALUE))))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel98Layout.createSequentialGroup()
                 .addGap(423, 423, 423)
                 .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -4721,7 +4727,7 @@ public class Dashboard extends javax.swing.JFrame {
                     .addGroup(jPanel98Layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addComponent(jLabel274)
-                        .addGap(39, 39, 39)
+                        .addGap(18, 18, 18)
                         .addComponent(jLabel276))
                     .addGroup(jPanel98Layout.createSequentialGroup()
                         .addComponent(jLabel275)
